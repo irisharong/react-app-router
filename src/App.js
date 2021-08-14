@@ -1,17 +1,15 @@
-import React from 'react';
-import ContextState from './context_state_config';
+import './App.scss';
 
-
-
-const App = () => {
-
-    return(
-      <div>
-      React
-      <ContextState />
-      </div>
-    )
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Hello, Welcome!
+        </p>
+      </header>
+    </div>
+  );
 }
-
 
 export default App;
